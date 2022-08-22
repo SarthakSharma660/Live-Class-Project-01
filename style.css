@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+.container{
+    align-items: center;
+    height: 100vh;
+    margin: 5px 5px;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    overflow-x: hidden;
+}
+.navbar-container{
+    margin: 25px 20px;
+    font-family: "Orbitron";
+    display: flex;
+    flex-direction: row;
+    height: 20vh;
+    justify-content: space-between;
+}
+.list-item{
+    padding: 0 55px;
+    font-size: 35px;
+}
+.list{
+    text-align: center;
+    display:flex;
+    font-weight: 500;
+    flex: 2;
+    list-style-type: none;
+    align-items: center;
+    padding: 5px;
+    margin: auto;
+}
+.list-item:hover{
+    text-decoration: underline ;   
+}
+.navbar-container img{
+    flex: 1;
+    margin: auto;
+}
+.button-group{
+    display: flex;
+    flex-direction: row;
+}
+.search-icon{
+    margin: 0 30px;
+}
+.nav-button{
+    font-size: 20px;
+    background: transparent;
+    border-radius: 15px;
+    padding: 10px 40px;
+    margin: 0 10px;
+}
+.hero-container{
+    height: 80vh;
+    display: flex;
+    font-family: "Orbitron";
+}
+.hero-container-right{
+    position:relative;
+    align-content:flex-end;
+    top: 90px;
+    left:295px;
+    text-align: center;
+    /* background-color: blue; */
+    width: 120vh;
+}
+
+.footer{
+    align-items: baseline;
+    /* text-align: center; */
+    margin-left: 110px;
+    margin-top: 115px;
+    right: 1px;
+    bottom: 0;
+    width: 40%;
+}
+.hero-heading{
+    text-align: center;
+    align-content: center;
+    font-weight: 700;
+    font-size: 80px;
+}
+.hero-description{
+    margin-top: 25px;
+    font-size: 25px;
+    font-family: "Poppins";
+    font-weight: 400;
+}
+.contact-heading{
+    font-family: "Poppins";
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.hero img{
+    height: 60vh;
+    position: absolute;
+    left: 50px; 
+}
+.square{
+ 
+    left:120px;
+    top : 180px;
+    display: flex;
+    position: relative;
+    height: 50vh;
+}
+.globe{
+    position: absolute;
+    left: 750px;
+}
+.button-email{
+    margin-top: 125px;
+    font-family: "Orbitron";
+    font-weight: 400;
+    font-size: 25px;
+    background: transparent;
+    padding: 5px 45px;
+    border-radius: 12px;
+}
+.button-join{
+    font-family: "Orbitron";
+    font-weight: 400;
+    font-size: 25px;
+    color: #ffffff;
+    background: #1f1f1f;
+    padding: 5px 5px;
+    border-radius: 12px;
+
+}
+.star{
+    position: absolute;
+    right:300px;
+}
